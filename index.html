@@ -1,0 +1,41 @@
+---
+layout: default
+title: zhangdj's blog
+---
+
+<div>
+  <ul class="listing">
+  {% for post in site.posts limit: 10 %}
+  <article class="content">
+    <section class="title">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    </section>
+    <section class="meta">
+    <span class="time">
+      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    </span>
+    {% if post.tags %}
+    <span class="tags">
+      {% for tag in post.tags %}
+      <a href="/tags.html#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
+      {% endfor %}
+    </span>
+    {% endif %}
+    </section>
+    <section class="post">
+    {{ post.content }}
+    </section>
+    </article>
+  {% endfor %}
+  </ul>
+  <div class="center">
+  <a href="/archive.html" class="circle-wrapper">
+  <button type="button">查看更多博文 >></button>
+  </a>
+  </div>
+</div>
+<!-- 百度统计代码-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F64bf1ce1e8317237458d3adaab0ce58f' type='text/javascript'%3E%3C/script%3E"));
+</script>   
