@@ -25,6 +25,7 @@ published: true
 -   [Python学习手册](http://www.amazon.cn/mn/detailApp/ref=as_li_ss_tl?_encoding=UTF8&tag=v06-23&linkCode=as2&asin=B004TUJ7A6&camp=536&creative=3132&creativeASIN=B004TUJ7A6)
 -   [Python基础教程](http://www.amazon.cn/mn/detailApp/ref=as_li_ss_tl?_encoding=UTF8&tag=v06-23&linkCode=as2&asin=B003TSBAMM&camp=536&creative=3132&creativeASIN=B003TSBAMM)
 -   [Python CookBook](http://www.amazon.cn/mn/detailApp/ref=as_li_ss_tl?_encoding=UTF8&tag=v06-23&linkCode=as2&asin=B003LPO4KS&camp=536&creative=3132&creativeASIN=B003LPO4KS)
+-   [学习 Python 编程](https://www.scaler.com/topics/python/)
 
 **学习论坛**
 
